@@ -10,3 +10,6 @@ Hi. Welcome to the Muffin Master project. To be honest, this is a project by a j
 
 
 (ı need new logo)
+
+
+bio and donates: https://guns.lol/hackpatato
