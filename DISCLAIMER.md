@@ -47,4 +47,3 @@ reasonable time for a patch.
 
 ---
 *If you do not agree to these terms, do not use this software.*
-" Please remember to comply with the laws in your country and around the world "
