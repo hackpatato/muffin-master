@@ -1,16 +1,45 @@
-# muffin-master
+> **Notice:** This project is currently under active development. Features are continuously being expanded and optimized.
 
 
 
-<p align="center">
-  <img src="logo.png" width="550" alt="muffin master logo">
-</p>
+<div align="center">
 
-Hi. Welcome to the Muffin Master project. To be honest, this is a project by a junior malware developer (that’s me), so it’s best not to have too high expectations, but I’ll really try to create something substantial here. Thanks in advance for your support (please support me).
+  <img src="logo.png" alt="Muffin Master Logo" width="180">
 
-bio and donates: https://guns.lol/hackpatato
+  # Muffin Master
+
+  **A Lightweight & Modular C2 Framework Built for Red Teams and Security Research**
+
+  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+
+• [Roadmap](#roadmap) • [Disclaimer](#disclaimer)
+
+</div>
+
+---
+
+##  Overview
+
+**Muffin Master** is an open-source Command and Control (C2) framework developed for cybersecurity research, academic study, and authorized red team engagements. Designed with lightweight architecture in mind, it provides an intuitive interface for managing active sessions and executing posts-exploitation modules efficiently.
+
+
+---
+
+##  Features
+
+* **Modular Architecture:** Easily extend capabilities with custom modules.
+* **Stealth Communications:** Flexible transport channels designed to simulate real-world adversary behavior.
+* **Session Management:** Real-time tracking and control over connected implants/agents.
+* **Lightweight Footprint:** Low resource usage on both server and target environments.
+
+---
 
 
 
+### Installation
 
-(ı need new logo)
+```bash
+# Clone the repository
+git clone [https://github.com/hackpotato/muffin-master.git](https://github.com/hackpotato/muffin-master.git)
+
