@@ -2,7 +2,7 @@
 
 ## Educational and Red Teaming Purpose Only
 
-This repository and all files within it are provided **strictly for educational
+This repository and all files within it are provided **strictly for educational , red teaming
 and authorized security research purposes only**.
 
 ## Authorized Use Only
