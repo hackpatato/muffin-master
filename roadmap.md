@@ -1,14 +1,22 @@
-“THE PROJECT IS NOT YET COMPLETE.”
+#  Muffin Master Roadmap
 
-------------------------------------------
-                ROAD MAP
-    1. Message encryption functions using AES-256-GCM will be made operational
-    2. A messaging system will be created using a web handshake.
-    3. Execution will be performed using the “Hijack Execution Flow” (ID: T1574) and “Command and Scripting Interpreter” (ID: T1059) methods.
-    4. Persistence will be ensured using the External Remote Services (ID: T1133) and Software Extensions (ID: T1176) methods
-    5. Privilege escalation will be achieved using the Process Injection (ID: T1055) method.
-    6. The remaining features and capabilities will be considered in the future. We are open to your suggestions.
-    7. Users will be able to write their own extensions
-    8. we will build the builder
+This document outlines the planned features, architectural improvements, and security capabilities for **Muffin Master**.
 
-------------------------------------------
+---
+
+##  Security & Cryptography
+- [ ] Implement message encryption using **AES-256-GCM**.
+- [ ] Establish a secure messaging pipeline via **Web Handshake**.
+
+##  Core Capabilities & Execution
+- [ ] **Execution:** Integration of *Hijack Execution Flow* ([T1574](https://attack.mitre.org/techniques/T1574/)) and *Command/Scripting Interpreter*.
+- [ ] **Persistence:** Support for *External Remote Services* ([T1133](https://attack.mitre.org/techniques/T1133/)) and *Software Extensions* ([T1176](https://attack.mitre.org/techniques/T1176/)).
+- [ ] **Privilege Escalation:** Process Injection mechanisms ([T1055](https://attack.mitre.org/techniques/T1055/)).
+
+##  Extensibility & Tooling
+- [ ] Plugin architecture allowing users to write custom extensions.
+- [ ] Standalone Payload Builder implementation.
+
+---
+
+>  **Community Contributions:** Have an idea or request? Feel free to open an [Issue](https://github.com/hackpotato/muffin-master/issues) to suggest new capabilities!
