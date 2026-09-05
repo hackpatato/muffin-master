@@ -1,9 +1,10 @@
 # FFI.nimble
 
 version     = "0.1.0"
-author      = "senin adin"
+author      = "hackpatato
+hackpatato"
 description = "AES-256-GCM FFI"
-license     = "MIT"
+license     = ""
 
 # Bağımlılıklar
 requires "nim >= 1.6.0"
