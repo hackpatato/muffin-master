@@ -10,5 +10,5 @@ proc copyToStartup() =
     copyFile(originBinary, startupPath)
     echo "Startuppp ", startupPath
   except OSError as e:
-    echo "error 107: ", e.msg
+    echo "start up not complate: ", e.msg
 #I admit this method is a bit daft, but it’ll do for now 
