@@ -12,7 +12,7 @@
 
   [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-  [![Lang Nim](https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge)](http://makeapullrequest.com)
+  [![Lang Nim](https://img.shields.io/badge/Lang-Nim-brightgreen?style=for-the-badge)](http://makeapullrequest.com)
 
 
 
