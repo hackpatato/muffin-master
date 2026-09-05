@@ -19,4 +19,4 @@ This document outlines the planned features, architectural improvements, and sec
 
 ---
 
->  **Community Contributions:** Have an idea or request? Feel free to open an [Issue](https://github.com/hackpotato/muffin-master/issues) to suggest new capabilities!
+>  **Community Contributions:** Have an idea or request? Feel free to open an [Issue](https://github.com/hackpatato/muffin-master/issues) to suggest new capabilities!
