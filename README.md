@@ -42,9 +42,4 @@
 
 
 
-### Installation
-
-```bash
-# Clone the repository
-git clone [https://github.com/hackpotato/muffin-master.git](https://github.com/hackpotato/muffin-master.git)
 
