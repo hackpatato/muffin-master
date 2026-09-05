@@ -1,4 +1,4 @@
-# muffin-master-
+# muffin-master
 
 
 
@@ -12,6 +12,5 @@ bio and donates: https://guns.lol/hackpatato
 
 
 
-----------
+
 (ı need new logo)
-----------
