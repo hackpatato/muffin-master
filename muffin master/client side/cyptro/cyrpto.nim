@@ -1,4 +1,3 @@
-
 EVP_CIPHER_CTX = distinct ptr pointer
 EVP_CIPHER     = distinct ptr pointer
 const
