@@ -12,7 +12,7 @@ if ctx == nil:
 defer: EVP_CIPHER_CTX_free(ctx)
 
 
-# İV uzunluğunu ayarladık sanırım bu nonce gibi bir şey ???
+# its iv ? (or maybe nonce ? ı have no idea what is this )
 let ret = EVP_CIPHER_CTX_ctrl(ctx, EVP_CTRL_GCM_SET_IVLEN, 12, nil)
 if ret != 1:
   raise newException(CatchableError, "iv long is errored.")
@@ -24,17 +24,19 @@ if ret2 != 1:
 var ciphertext = newSeq[byte](plaintext.len)
 var outl: cint
 
-
+#start
 let ret3 = EVP_EncryptUpdate(ctx, ciphertext[0].addr, outl.addr, plaintext[0].addr, platintext.len.cint)
 if ret3 != 1:
   raise newException(CatchableError, "encrypt update failed")
 var finalLen: cint
 
-
+# encrypt final
 let ret4 = EVP_EncryptInit_ex(ctx, ciphertext[outl].addr, finalLen.addr)
 if ret4 != 1:
   raise newException(CatchableError, "encrypt final failed")
 
 var tag = newSeq[byte](16)
-
+#tags
 let ret5 = EVP_CIPHER_CTX_ctrl(ctx, EVP_CTRL_GCM_SET_TAG, 16, tag[0].addr)
+if ret5 != 1:
+  raise newException(CatchableError, "TAG İS NOT RECİVED")
