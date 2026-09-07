@@ -1,5 +1,5 @@
 import crypto
-proc encrypt(plaintext, key, iv: seq[byte]): tuple[ciphertext,
+proc encrypt*(plaintext, key, iv: seq[byte]): tuple[ciphertext,
 tag: seq[byte]]
 
 #  nil değeri dönmüşmü onu kontrol etik
