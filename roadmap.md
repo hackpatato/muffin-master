@@ -5,7 +5,7 @@ This document outlines the planned features, architectural improvements, and sec
 ---
 
 ##  Security & Cryptography
-- ✅ Implement message encryption using **AES-256-GCM**.
+✅ Implement message encryption using **AES-256-GCM**.
 - [ ] Establish a secure messaging pipeline via **Web Handshake**.
 
 ##  Core Capabilities & Execution
