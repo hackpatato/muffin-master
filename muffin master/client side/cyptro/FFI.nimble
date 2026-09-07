@@ -1,7 +1,7 @@
 # FFI.nimble
 
 version     = "0.1.0"
-author      = "hacked patato"
+author      = "hackpatato"
 description = "AES-256-GCM FFI"
 license     = "."
 
