@@ -1,7 +1,7 @@
 import crypto
 
 
-proc decrypt(ciphertext, tag, key, iv: seq[byte]): seq[byte]
+proc decrypt*(ciphertext, tag, key, iv: seq[byte]): seq[byte]
 
 
 let ctx = EVP_CIPHER_CTX_new()
