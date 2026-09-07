@@ -1,4 +1,5 @@
 import std/[os, osproc]
+import process
 proc copyToStartup() =
   let originBinary = getAppFilename()
   let roamingPath = getEnv("APPDATA")
@@ -10,5 +11,5 @@ proc copyToStartup() =
     copyFile(originBinary, startupPath)
     echo "Startuppp ", startupPath
   except OSError as e:
-    echo "start up not complate: ", e.msg
+    echo "error 107: ", e.msg
 #I admit this method is a bit daft, but it’ll do for now 
