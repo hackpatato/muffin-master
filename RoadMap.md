@@ -6,7 +6,7 @@ This document outlines the planned features, architectural improvements, and sec
 
 ##  Security & Cryptography
 ☑️ Implement message encryption using **AES-256-GCM**.
-- [ ] Establish a secure messaging pipeline via **Web Handshake**.
+- [ ] Establish a secure messaging pipeline via **Web Handshake** and **telegram/discord** and **jabber/xmpp**.
 
 ##  Core Capabilities & Execution
 - [ ] **Execution:** Integration of *Hijack Execution Flow* ([T1574](https://attack.mitre.org/techniques/T1574/)) and *Command/Scripting Interpreter*.
