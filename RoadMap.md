@@ -16,6 +16,9 @@ This document outlines the planned features, architectural improvements, and sec
 - [ ] **Persistence:** Support for *External Remote Services* ([T1133](https://attack.mitre.org/techniques/T1133/)) and *Software Extensions* ([T1176](https://attack.mitre.org/techniques/T1176/)).
       
 - [ ] **Privilege Escalation:** Process Injection mechanisms ([T1055](https://attack.mitre.org/techniques/T1055/)).
+- [ ] **Credential Access** Modify Authentication Process ([T1556](https://attack.mitre.org/techniques/T1556/)) and Adversary-in-the-Middle  ([T1557](https://attack.mitre.org/techniques/T1557/)).
+
+- [ ] **Stealth** Hijack Execution Flow ([T1574](https://attack.mitre.org/techniques/T1574/)) and  Process Injection   ([T1055](https://attack.mitre.org/techniques/T1055/)).
 
 ##  Extensibility & Tooling
 - [ ] Plugin architecture allowing users to write custom extensions.
