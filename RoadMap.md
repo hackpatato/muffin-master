@@ -8,7 +8,7 @@ This document outlines the planned features, architectural improvements, and sec
 ☑️ Implement message encryption using **AES-256-GCM**. (note:In the future, I will migrate the project to the “Libsodium” library.
 - [ ] Include Curve25519 in the project
       
-- [ ] Establish a secure messaging pipeline via **Web Handshake** and **telegram/discord** and **jabber/xmpp**.
+- [ ] Establish a secure messaging pipeline via **Web Handshake** , **telegram/discord** , **jabber/xmpp**.
 
 ##  Core Capabilities & Execution
 - [ ] **Execution:** Integration of *Hijack Execution Flow* ([T1574](https://attack.mitre.org/techniques/T1574/)) and *Command/Scripting Interpreter*.
