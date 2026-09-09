@@ -6,6 +6,7 @@ This document outlines the planned features, architectural improvements, and sec
 
 ##  Security & Cryptography
 ☑️ Implement message encryption using **AES-256-GCM**.
+- [ ] Include Curve25519 in the project
 - [ ] Establish a secure messaging pipeline via **Web Handshake** and **telegram/discord** and **jabber/xmpp**.
 
 ##  Core Capabilities & Execution
