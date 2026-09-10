@@ -6,9 +6,7 @@ This document outlines the planned features, architectural improvements, and sec
 
 ##  Security & Cryptography
 - [x] Implement message encryption using **XChaCha20-Poly1305**. 
-
-- [x]Include Curve25519 in the project
-      
+- [x] Include Curve25519 in the project
 - [ ] Establish a secure messaging pipeline via **Web Handshake** , **telegram/discord** , **jabber/xmpp**.
 
 ##  Core Capabilities & Execution
