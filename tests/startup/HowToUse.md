@@ -1,10 +1,10 @@
 1. dowland "mingw-w64" 
 -------------
-sudo apt update && sudo apt install mingw-w64 -y
+sudo apt update && sudo apt install mingw-w64 -y #for debian
 -------------
-or 
+
 -------------
-sudo pacman -S mingw-w64-gcc
+sudo pacman -S mingw-w64-gcc # for arch
 -------------
 2.
 -------------
