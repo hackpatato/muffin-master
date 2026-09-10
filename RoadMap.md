@@ -5,7 +5,7 @@ This document outlines the planned features, architectural improvements, and sec
 ---
 
 ##  Security & Cryptography
-☑️ Implement message encryption using **AES-256-GCM**. (note:In the future, I will migrate the project to the “Libsodium” library.
+☑️ Implement message encryption using **XChaCha20-Poly1305**. (note:In the future, I will migrate the project to the “Libsodium” library.
 - [ ] Include Curve25519 in the project
       
 - [ ] Establish a secure messaging pipeline via **Web Handshake** , **telegram/discord** , **jabber/xmpp**.
