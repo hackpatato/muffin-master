@@ -1,0 +1,1 @@
+There isn't just one reason. To be realistic, the lack of resources and libraries in the Nim programming language is the main reason. Aside from that, I've rewritten the cryptography part of the project about four times, and it still doesn't work. I might return to the project in the future when conditions improve. bye
